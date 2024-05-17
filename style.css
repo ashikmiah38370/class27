@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    }
+    .fixed-width{
+        width: 1400px;
+        margin: auto;
+    }
+    
+    .menu{
+        background:  #22c3a3;
+        
+        
+    }
+    .menu-left{
+    float: left;
+    width: 30%;
+    }
+    .menu-right{
+        float: right;
+        width: 70%;
+    }
+    .menu-right ul{
+        text-align: center;
+    }
+    .menu-right ul li{
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .menu-right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px ;
+    margin-bottom: 50px;
+    
+
+    
+    }
+    .menu-left h1{
+        line-height: 50px;
+    }
+    .menu2{
+        text-align: center;
+        background: url( https://img.hotimg.com/header-bg01f313590d8b13d1f3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px;
+    }
+    .menu2 h1{
+        color: white;
+        font-size: 50px;
+    }
+    .menu2 h3{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .menu2 a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+        margin-top: 30px;
+        display: inline-block;
+        border: 2px solid white;
+    }
+    .menu3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .menu3 h1{
+        font-size: 60px;
+    }
+    .menu3 p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .icon{
+        width: 24.75%;
+    float: left;
+padding: 10px;
+box-sizing: border-box;
+margin-left: 2px;
+margin-top: 80px;
+    }
+    .icon span{
+        font-size: 30px;
+        display: inline-block;
+        background: #22c3a3;
+        padding: 20px;
+        height: 20px;
+        width: 30px;
+        text-align: center;
+    }
+    .icon h3{
+        font-size: 30px;
+        
+    }
+    
